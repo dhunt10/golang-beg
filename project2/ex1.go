@@ -4,10 +4,18 @@ import "fmt"
 
 var darin int = 5
 var space string
+
+const (
+	a     = 42
+	b int = 24
+)
+
 func main() {
 	//	foo()
-	number()
-	compare()
+	//	number()
+	//	compare()
+	//asciii()
+	fmt.Println(a, b)
 }
 
 func foo() {
@@ -29,12 +37,25 @@ func number() {
 }
 
 func compare() {
-	a :=(42 == 42)
-	b :=(42 <= 43)
-	c :=(42 >= 43)
-	d :=(42 != 43)
-	e :=(42 < 43)
-	f :=(42 > 43)
+	a := (42 == 42)
+	b := (42 <= 43)
+	c := (42 >= 43)
+	d := (42 != 43)
+	e := (42 < 43)
+	f := (42 > 43)
 
-	fmt.Println(a,b,c,d,e,f)
+	fmt.Println(a, b, c, d, e, f)
+}
+
+func asciii() {
+	word := "darin hunt"
+	//	bs := []byte(word)
+
+	fmt.Println(word)
+	//	fmt.Println(bs)
+	//	fmt.Printf("%T\n", bs)
+
+	for i := 0; i < len(word); i++ {
+		fmt.Printf("%v\n", word[i])
+	}
 }
