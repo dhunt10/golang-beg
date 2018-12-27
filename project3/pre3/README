@@ -1,0 +1,16 @@
+this project is mainly about conditionals, loops and modulus operator
+
+in if statements the you can use && for and, as well as || for or
+
+for loops can be used with 
+for init; condition; post {
+}
+or
+for x <10 {
+	x++
+}
+
+or 
+for {
+	//if statement that ends the loop	
+}
