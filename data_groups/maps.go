@@ -27,6 +27,9 @@ func main() {
 	if v, ok := m["Greg"]; ok {
 
 		fmt.Println("itys in there", v)
+	}else{
+		fmt.Println("Not in there")
+
 	}
 	for k, v := range m {
 		fmt.Println(k, v)
